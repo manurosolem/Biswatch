@@ -1,4 +1,4 @@
-# Biswatch — cuidado que acompanha o tempo
+# Biswatch — o relógio que cuida de você
 
 Biswatch é um protótipo funcional de uma plataforma para um relógio inteligente multifunções, voltado principalmente a pessoas idosas, pacientes e seus responsáveis/cuidadores. Além de organizar remédios, consultas e datas importantes, o produto foi pensado para ajudar com GPS, ligações para números escolhidos, voz, sensores e uma rede de segurança.
 
