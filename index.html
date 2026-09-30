@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Biswatch — cuidado que acompanha o tempo." />
+    <title>Biswatch — cuidado que acompanha o tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" id="topo">
+      <div class="container nav-wrap">
+        <a class="brand" href="#topo" aria-label="Biswatch, início">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>Bis<span>watch</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#seguranca">Segurança</a>
+          <a class="nav-cta" href="#contato">Conheça o Biswatch <span>↗</span></a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">◐</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> Tecnologia que cuida de verdade</div>
+          <h1>Mais presença.<br /><em>Mais tranquilidade.</em></h1>
+          <p class="hero-text">Um relógio inteligente pensado para acompanhar quem você ama — e dar mais autonomia para todos os momentos.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#recursos">Descobrir o Biswatch <span>→</span></a>
+            <a class="text-link" href="#como-funciona">Veja como funciona <span>↓</span></a>
+          </div>
+          <div class="trust-row"><div class="avatar-stack"><span>MS</span><span>AC</span><span>JL</span><span>+</span></div><p>Feito para famílias que cuidam juntas</p></div>
+        </div>
+        <div class="hero-visual" aria-label="Prévia do relógio Biswatch e painel de cuidado">
+          <div class="glow glow-a"></div><div class="glow glow-b"></div>
+          <div class="watch-card">
+            <div class="watch-top"><span class="watch-status"><i></i> conectado</span><span>09:41</span></div>
+            <div class="watch-face"><div class="watch-ring"><strong>72</strong><small>BPM</small></div><div class="watch-heart">♥</div></div>
+            <div class="watch-bottom"><span>Hoje, 18 jun</span><span class="battery">▰ 86%</span></div>
+          </div>
+          <div class="floating-card floating-alert"><span class="floating-icon alert-icon">!</span><div><b>Rede de segurança</b><small>Tudo tranquilo por aqui</small></div><span class="online-dot"></span></div>
+          <div class="floating-card floating-reminder"><span class="floating-icon reminder-icon">✓</span><div><b>Próximo lembrete</b><small>Vitamina · 12:30</small></div></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Indicadores Biswatch">
+        <div class="container metrics-grid"><div><strong>24/7</strong><span>cuidado contínuo</span></div><div><strong>1 toque</strong><span>para pedir ajuda</span></div><div><strong>+ autonomia</strong><span>para cada rotina</span></div><div class="metric-note"><span class="mini-heart">♥</span><span>Calma para quem<br />cuida de longe</span></div></div>
+      </section>
+
+      <section class="section container" id="como-funciona">
+        <div class="section-heading"><div><div class="eyebrow">Cuidado sem complicação</div><h2>Feito para caber<br />na vida real.</h2></div><p>Do lembrete da medicação ao contato com a família, tudo foi desenhado para ser simples, claro e acolhedor.</p></div>
+        <div class="steps-grid"><article class="step-card"><span class="step-number">01</span><div class="step-icon">◌</div><h3>Conecte quem importa</h3><p>Cadastre a pessoa e os contatos de confiança em poucos passos.</p><a href="#recursos">Saiba mais <span>→</span></a></article><article class="step-card featured-step"><span class="step-number">02</span><div class="step-icon">⌁</div><h3>Acompanhe com leveza</h3><p>Tenha uma visão clara da rotina, dos lembretes e da localização.</p><a href="#recursos">Saiba mais <span>→</span></a></article><article class="step-card"><span class="step-number">03</span><div class="step-icon">♡</div><h3>Esteja presente</h3><p>Receba atualizações e fique perto, mesmo quando estiver longe.</p><a href="#seguranca">Saiba mais <span>→</span></a></article></div>
+      </section>
+
+      <section class="feature-section" id="recursos"><div class="container feature-layout"><div class="feature-copy"><div class="eyebrow">Uma central de cuidado</div><h2>Informação certa,<br /><em>na hora certa.</em></h2><p>O painel Biswatch transforma a rotina de cuidado em uma experiência mais organizada e humana.</p><ul class="feature-list"><li><span>✓</span><div><b>Lembretes inteligentes</b><small>Remédios, consultas e datas importantes.</small></div></li><li><span>✓</span><div><b>Rede de segurança</b><small>Contatos de confiança sempre acessíveis.</small></div></li><li><span>✓</span><div><b>Alertas claros</b><small>Sem ruído, com contexto e transparência.</small></div></li></ul><button class="button button-dark" id="simulate-alert" type="button">Simular alerta <span>→</span></button></div><div class="dashboard-preview"><div class="dashboard-top"><div><span class="dashboard-greeting">Bom dia, Marina</span><strong>Sua rede está tranquila.</strong></div><span class="dashboard-avatar">M</span></div><div class="dashboard-status"><span class="status-ring">✓</span><div><b>Tudo em ordem</b><small>Última atualização há 2 min</small></div><span class="status-chevron">›</span></div><div class="dashboard-columns"><div class="dashboard-tile"><small>PRÓXIMO LEMBRETE</small><b>Vitamina D</b><span>Hoje · 12:30</span><i class="tile-clock">◷</i></div><div class="dashboard-tile"><small>LOCALIZAÇÃO</small><b>Casa</b><span>Atualizado agora</span><i class="tile-location">⌖</i></div></div><div class="dashboard-footer"><span>Atividade recente</span><span>Ver tudo →</span></div></div></div></section>
+
+      <section class="safety-section" id="seguranca"><div class="container safety-layout"><div class="safety-visual"><div class="safety-orbit orbit-one"></div><div class="safety-orbit orbit-two"></div><div class="safety-core">♥<small>presença</small></div><span class="safety-chip chip-a">Família</span><span class="safety-chip chip-b">Cuidado</span><span class="safety-chip chip-c">Autonomia</span></div><div class="safety-copy"><div class="eyebrow">Segurança com respeito</div><h2>Proteção não precisa<br />parecer vigilância.</h2><p>O Biswatch dá liberdade para quem usa e confiança para quem acompanha. Você escolhe o que compartilhar, com quem e quando.</p><div class="quote"><span>“</span><p>Porque cuidar também é confiar.</p></div></div></div></section>
+
+      <section class="cta-section container" id="contato"><div class="cta-card"><div><div class="eyebrow">O próximo passo é simples</div><h2>Mais cuidado.<br /><em>Menos preocupação.</em></h2><p>Conheça uma forma mais leve de estar presente.</p></div><a class="button button-light" href="mailto:oi@biswatch.com.br">Fale com a gente <span>↗</span></a></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><a class="brand" href="#topo"><span class="brand-mark" aria-hidden="true"><span></span></span><span>Bis<span>watch</span></span></a><p>cuidado que acompanha o tempo</p><span>© 2024 Biswatch</span></div></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><div><b>Alerta simulado</b><small>A rede de segurança foi atualizada.</small></div></div>
+  </body>
+</html>

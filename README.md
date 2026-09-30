@@ -1,4 +1,21 @@
-# Biswatch — o relógio que cuida de você
+# Biswatch — cuidado que acompanha o tempo
+
+## Interface pública
+
+Foi adicionada uma landing page independente e responsiva na raiz do projeto:
+
+- `index.html`: estrutura e conteúdo da página.
+- `styles.css`: identidade visual, responsividade e modo escuro.
+- `script.js`: menu mobile, tema e simulação de alerta.
+- `server.py`: servidor local simples com endpoint `/api/health`.
+
+Para visualizar:
+
+```bash
+python3 server.py
+```
+
+Depois, abra `http://localhost:8000` no navegador.
 
 Biswatch é um protótipo funcional de uma plataforma para um relógio inteligente multifunções, voltado principalmente a pessoas idosas, pacientes e seus responsáveis/cuidadores. Além de organizar remédios, consultas e datas importantes, o produto foi pensado para ajudar com GPS, ligações para números escolhidos, voz, sensores e uma rede de segurança.
 
